@@ -2,6 +2,8 @@ name: hello
 on:
   push:
     branches: [main]
+    path: 
+      - '**.py'
 jobs:
   say-hello:
     runs-on: ubuntu-lastest
